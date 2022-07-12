@@ -47,7 +47,7 @@ const Chat = (props) => {
         <>
             <Card className={classes.chat}>
                 {/* <h1>Your public key is : {props.key}</h1> */}
-                <input type="text" placeholder="Type receiver's wallet address" onChange={getreceiverPublicKey} value={receiverPublicKey} />
+                <input type="text" placeholder="Type receiver's public key" onChange={getreceiverPublicKey} value={receiverPublicKey} />
                 <input type="text" placeholder="Type your message" onChange={getMessage} value={message} />
                 <button className={classes.btn} onClick={onClick}>Send</button>
                 {/* <button className={classes.btn} onClick={getPublicKey}>Get your public key</button> */}
